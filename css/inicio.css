@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bigdady{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.rene{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.minidady{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
